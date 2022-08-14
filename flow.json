@@ -32,6 +32,14 @@
         "env": []
     },
     {
+        "id": "82bec9bd5cd94e20",
+        "type": "tab",
+        "label": "Flow 6",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "444302605f42437b",
         "type": "inject",
         "z": "02276a343a8cbb37",
@@ -219,6 +227,62 @@
         "className": "",
         "x": 390,
         "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c01075dfe7a456e1",
+        "type": "ui_button",
+        "z": "82bec9bd5cd94e20",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 120,
+        "wires": [
+            [
+                "3c8b5f7333b5e004"
+            ]
+        ]
+    },
+    {
+        "id": "3c8b5f7333b5e004",
+        "type": "ui_dropdown",
+        "z": "82bec9bd5cd94e20",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Select option",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "value": "",
+                "label": ""
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 460,
+        "y": 160,
         "wires": [
             []
         ]
