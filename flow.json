@@ -24,6 +24,14 @@
         "env": []
     },
     {
+        "id": "a8447aa0d214ca19",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "444302605f42437b",
         "type": "inject",
         "z": "02276a343a8cbb37",
@@ -157,5 +165,62 @@
         "x": 460,
         "y": 80,
         "wires": []
+    },
+    {
+        "id": "269b042387a25d55",
+        "type": "ui_switch",
+        "z": "a8447aa0d214ca19",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": true,
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": false,
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 250,
+        "y": 220,
+        "wires": [
+            [
+                "2e2db5e4343ac115"
+            ]
+        ]
+    },
+    {
+        "id": "2e2db5e4343ac115",
+        "type": "ui_slider",
+        "z": "a8447aa0d214ca19",
+        "name": "",
+        "label": "slider",
+        "tooltip": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 390,
+        "y": 280,
+        "wires": [
+            []
+        ]
     }
 ]
