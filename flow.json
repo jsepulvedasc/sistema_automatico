@@ -40,6 +40,14 @@
         "env": []
     },
     {
+        "id": "f5a194db59c6bc46",
+        "type": "tab",
+        "label": "Flow 7",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "444302605f42437b",
         "type": "inject",
         "z": "02276a343a8cbb37",
@@ -286,5 +294,38 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "363c17daabf8475b",
+        "type": "rpi-gpio in",
+        "z": "f5a194db59c6bc46",
+        "name": "",
+        "pin": "",
+        "intype": "tri",
+        "debounce": "25",
+        "read": false,
+        "bcm": true,
+        "x": 170,
+        "y": 60,
+        "wires": [
+            [
+                "c58811ea088d0492"
+            ]
+        ]
+    },
+    {
+        "id": "c58811ea088d0492",
+        "type": "rpi-gpio out",
+        "z": "f5a194db59c6bc46",
+        "name": "",
+        "pin": "",
+        "set": "",
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 470,
+        "y": 80,
+        "wires": []
     }
 ]
